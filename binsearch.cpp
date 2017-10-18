@@ -44,7 +44,6 @@ int main(int argc, char *argv[]){
   cout << "Enter the target positive integer to search for: ";
   cin >> target;
 
-  // Uncomment the line below for part 2
   sort(data, count);
 
   // Call binary search
@@ -89,7 +88,7 @@ int binsearch(int target, int *data, int start, int end)
 
 // implements a selection sort algorithm to sort
 //  the integer values in the 'data' array of size 'len'
-// You aren't allowed to change the prototype of this function
+
 void sort(int *data, int len)
 {
 	int max_index = 0, temp = 0, index =0;
